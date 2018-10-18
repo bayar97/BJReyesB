@@ -1,40 +1,45 @@
 <HTML>
-<head> <title>App Prueba</title></head>
+<head>
+  <title>App Prueba</title>
+  <link rel="stylesheet" href="app.css" type="text/css">
+</head>
 <body>
 
 <form>
+<h1>Formulario</h1>
 <div>
-  <label for="name">Nombres y Apellidos:</label>
-  <input type="text" id="name" />
-</div><br>
+  <label>Nombres y Apellidos:</label>
+  <input type="text" id="name" placeholder="Ingrese su nombre" />
+</div>
 <div>
-  <label for="mail">Edad:</label>
-  <input type="number" id="edad" />
-</div><br>
+  <label>Edad:</label>
+  <input type="number" id="edad" placeholder="Ingrese su edad" />
+</div>
+
 <div>
-Sexo<br>
-<label for="male">Masculino</label>
-  <input type="checkbox" name="gender" id="male" value="male"><br>
-  <label for="female">Femenino</label>
-  <input type="checkbox" name="gender" id="female" value="female"><br>
-</div><br>
+<label>Sexo:</label>
+  <input type="checkbox" id="male" value="male">Masculino
+  <input type="checkbox" id="female" value="female">Femenino
+</div>
+
 <div>
   <label for="domicilio">Domicilio:</label>
-  <input type="text">
-</div><br>
+  <input type="text" placeholder="Direccion donde habita">
+</div>
 <div>
   <label for="nac">Nacionalidad:</label>
-  <input type="text">
-</div><br>
+  <input type="text" placeholder="Lugar donde nacio">
+</div>
 <div>
   <label for="num">Numero Tefonico:</label>
-  <input type="text">
-</div><br>
+  <input type="text" placeholder="Ingrese su numero telefonico">
+</div>
 <div class="button">
 <button type="submit">Enviar Formulario</button>
+<button type="submit">Limpiar Formulario</button>
+
 </div>
 </form>
-
 </body>
 </HTML>
 
